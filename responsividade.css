@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@media screen and (max-width: 768px){
+header h1{
+    font-size: 1.5em;
+}
+/*MENU MOBILE*/
+#btn-mobile{
+    display: block;
+}
+#itens li{
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid rgba(189, 188, 188, 0.644);
+}
+#itens{
+    display: block;
+    visibility: hidden;
+    width: 100%;
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    height: 0px;
+    background-color: #1b5e20;
+    overflow-y: hidden;
+    transition-duration: .7s;
+}
+#menu.active #itens{
+    visibility: visible;
+    height: 50vh;
+}
+section#s01 h2{
+    font-size: 1.5em;
+}
+section#s01 p{
+    font-size: .9em;
+}
+section h2{
+    font-size: 1.4em;
+}
+.msg{
+    margin-top: 30px;
+}
+.btncontato{
+    font-size: 0.8em;
+}
+iframe{
+    margin-top: 40px;
+}
+footer h3{
+    margin-top: 20px;
+}
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    section#s01 h2{
+        font-size: 2.5em;
+    }
+}

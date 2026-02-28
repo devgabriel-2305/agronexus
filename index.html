@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>AgroNexus</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+<body>
+    <!--HEADER-->
+    <header class="flex justify-between items-center">
+        <h1>AgroNexus</h1>
+        <nav id="menu">
+            <button id="btn-mobile"><span id="simbol" class="material-symbols-outlined">menu</span></button>
+            <ul id="itens" class="flex gap-3">
+                <li><a href="#s02">Sobre</a></li>
+                <li><a href="#s03">Serviços</a></li>
+                <li><a href="#s04">Produtos</a></li>
+                <li><a href="#s05">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--SEÇÕES-->
+    <section id="s01" class=" flex flex-col items-center justify-center">
+        <h2>Tradição e Tecnologia no Campo</h2>
+        <p>Produzindo qualidade, sustentabilidade e inovação para alimentar o futuro.</p>
+        <a href="#s02">Saiba mais</a>
+    </section>
+
+    <section id="s02" class="hiden">
+        <h2>Sobre Nós</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 place-items-center gap-5">
+        <img src="img/img02.jpg" alt="Plantação">
+        <p class="msg text-justify">A AgroNexus é referência no setor agropecuário, atuando com produção sustentável, criação de gado de qualidade e agricultura moderna. Trabalhamos com responsabilidade ambiental e inovação tecnológica, unindo tradição e eficiência para fortalecer o desenvolvimento do campo.</p>
+    </div>
+    </section>
+    <section id="s03" class="hiden">
+        <h2>Nossos Serviços</h2>
+        <div class="cx grid grid-cols-1 gap-8 md:grid-cols-3 justify-items-center">
+            <div class="servico">
+                <h3>&#x1F33D; Agricultura</h3>
+                <p>Produção de grãos com tecnologia de ponta.</p>
+            </div>
+            <div class="servico">
+                <h3>&#x1F404; Pecuária</h3>
+                <p>Criação de gado com alto padrão genético.</p>
+            </div>
+            <div class="servico">
+                <h3>&#x1F69C; Cosultória Rural</h3>
+                <p>Assessoria técnica para produtores e empresas</p>
+            </div>
+        </div>
+    </section>
+    <section id="s04" class="hiden">
+        <h2>Produtos</h2>
+        <div class="cx grid grid-cols-1 gap-8 md:grid-cols-3 justify-items-center">
+            <div class="produtos">
+                <img src="img/milho.jpg" alt="">
+                <p>Milho Premium</p>
+            </div>
+            <div class="produtos">
+                <img src="img/soja.jpg" alt="">
+                <p>Soja Orgânica</p>
+            </div>
+            <div class="produtos">
+                <img src="img/gado.jpg" alt="">
+                <p>Gado Nelore</p>
+            </div>
+        </div>
+    </section>
+    <section id="s05" class="hiden">
+        <h2>Fale conosco</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="contato">
+                <h3>&#x1F4CD; Nossa Localização</h3>
+                <p>Rodovia Br-020, Km 85</p>
+                <p>Zona Rural – Ceará, Brasil</p>
+
+                <h3>&#x1F4F2; Atendimento</h3>
+                <p>(00)00000-0000</p>
+                <p>contato@agronexus.com.br</p>
+
+                <h3>&#x1F550; Horário</h3>
+                <p>Segunda a Sabado: 08h às 17h</p>
+                <p id="fun"></p>
+
+                <div class="flex gap-5">
+                    <a href="" class="btncontato">&#x1F4F2; WhatsApp</a>
+                    <a href="" class="btncontato">&#x1F4E7; Enviar Email</a>
+                </div>
+            </div>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3396161.7851127638!2d-41.44293269639792!3d-5.156975656029053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bdb31827e686c5%3A0x3bb435e0af957842!2zQ2VhcsOh!5e1!3m2!1sen!2sbr!4v1771352358605!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--RODAPÉ-->
+    <footer>
+        <div class="grid grid-cols-1 max-w-6xl md:grid-cols-3 pb-5">
+            <div>
+                <h3>&#x1F33E; AgroNexus</h3>
+                <p class="text-gray-300">Tradição e tecnologia no campo. Promovendo inovação sustentabilidade e produtividade no agronegócio.</p>
+            </div>
+            <div>
+                <h3>Links Rapido:</h3>
+                <ul class="text-gray-300">
+                    <li><a href="#s02">Sobre</a></li>
+                    <li><a href="#s03">Serviços</a></li>
+                    <li><a href="#s04">Produtos</a></li>
+                    <li><a href="#s05">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Redes Sociais</h3>
+                <ul class="text-gray-300">
+                    <li><a href=""><img src="img/icone-instagram.png" alt="icon Instagram">Instagram</a></li>
+                    <li><a href=""><img src="img/icone-facebook.png" alt="icon Facebook">Facebook</a></li>
+                    <li><a href=""><img src="img/icone-linkedin.png" alt="icon linkedin">Linkedin</a></li>
+                    <li><a href=""><img src="img/icone-twitter.png" alt="icon twitter">Twitter</a></li>
+                </ul>
+            </div>
+            
+        </div>
+            <div class="text-center text-sm text-gray-300 border-t border-gray-400">
+                <p class="pt-8">&copy; 2026 Agro Nexus | Desenvolvido por <span class="hover:underline">Gabriel Damião &lt;/&gt;</span></p>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
