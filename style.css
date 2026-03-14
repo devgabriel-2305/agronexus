@@ -41,6 +41,7 @@ nav > ul > li:hover{
 }
 /*SEÇÔES*/
 section#s01{
+    min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.335), rgba(0, 0, 0, 0.335)), url('img/img01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,7 +74,7 @@ section#s01 a{
     transition-duration: 0.3s;
 }
 section#s01 a:hover{
-    background-color: var(--cor04);
+    background-color: var(--cor05);
 }
 section#s02{
     padding: 60px;
@@ -81,18 +82,11 @@ section#s02{
 section#s02 img{
     border-radius: 15px;
 }
-section{
-    min-height: 85vh;
-    padding: 0px 30px;
-}
 section#s02 h2{
     margin-bottom: 30px;
 }
 section#s02 p{
     line-height: 1.5em;
-}
-section#s03{
-    padding: 0px 55px;
 }
 .servico{
     background-color: white;
@@ -114,9 +108,7 @@ section#s03{
 .servico p{
     font-size: 1.1em;
     text-align: center;
-} section#s04{
-    padding: 0px 55px;
-}
+} 
 .produtos{
     background-color: white;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.236);
@@ -145,7 +137,8 @@ section#s05{
     padding: 30px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.236);
     border-radius: 15px;
-    width: 90%;
+    max-width: 700px;
+    width: 100%;
     margin: auto;
 }
 .btncontato{
@@ -176,7 +169,8 @@ section#s05{
 iframe{
     border-radius: 15px;
     height: 380px;
-    width: 90%;
+    max-width: 700px;
+    width: 100%;
     display: block;
     margin: auto;
 }

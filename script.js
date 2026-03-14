@@ -23,7 +23,7 @@ function mostramenu(){
         simbol.innerHTML = 'menu'
     }
 }
-const myobvserver = new IntersectionObserver((entries)=> {
+const myobserver = new IntersectionObserver((entries)=> {
     entries.forEach((entry) => {
         if(entry.isIntersecting){
             entry.target.classList.add('show')
@@ -33,7 +33,7 @@ const myobvserver = new IntersectionObserver((entries)=> {
     })
 })
 const elements = document.querySelectorAll('.hiden')
-elements.forEach((element)=> myobvserver.observe(element))
+elements.forEach((element)=> myobserver.observe(element))
 
 window.addEventListener('load', carregar)
 btn.addEventListener('click', mostramenu)
