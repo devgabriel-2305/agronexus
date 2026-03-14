@@ -49,6 +49,7 @@ section#s01{
     background-size: cover;
     background-position: center center;
     text-align: center;
+    padding: 0px 20px;
 }
 section h2{
     text-align: center;
