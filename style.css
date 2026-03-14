@@ -1,6 +1,5 @@
 @charset "UTF-8";
 *{
-    margin: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,6 +39,9 @@ nav > ul > li:hover{
     display: none;
 }
 /*SEÇÔES*/
+section #s02, #s03, #s04, #s05{
+    padding: 40px 50px;
+}
 section#s01{
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.335), rgba(0, 0, 0, 0.335)), url('img/img01.jpg');
@@ -94,6 +96,8 @@ section#s02 p{
     padding: 50px 20px;
     border-radius: 15px;
     transition-duration: 0.3s;
+    max-width: 400px;
+    
 }
 .servico:hover{
     transform: translateY(-10px);
@@ -114,7 +118,7 @@ section#s02 p{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.236);
     border-radius: 15px;
     overflow: hidden;
-    max-width: 400px;
+    max-width: 380px;
 }
 .produtos img{
     border-bottom: 2px solid greenyellow;
@@ -138,7 +142,7 @@ section#s05{
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.236);
     border-radius: 15px;
     max-width: 700px;
-    width: 100%;
+    width: 90%;
     margin: auto;
 }
 .btncontato{
@@ -170,7 +174,7 @@ iframe{
     border-radius: 15px;
     height: 380px;
     max-width: 700px;
-    width: 100%;
+    width: 90%;
     display: block;
     margin: auto;
 }
