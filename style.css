@@ -31,13 +31,24 @@ header h1::before{
 nav > ul > li{
     font-size: 1.2em;
     transition: .4s;
+    position: relative;
 }
-nav > ul > li:hover{
-    color: var(--cor03);
+#itens > li > a::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s ease-in-out;
+}
+#itens > li > a:hover::after{
+    width: 100%;
 }
 #btn-mobile{
     display: none;
-}
+}       
 /*SEÇÔES*/
 section #s02, #s03, #s04, #s05{
     padding: 40px 50px;

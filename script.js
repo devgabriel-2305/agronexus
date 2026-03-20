@@ -14,7 +14,7 @@ function carregar(){
 }
 const btn = document.getElementById('btn-mobile')
 function mostramenu(){
-    const menu = document.querySelector('nav#menu')
+    let menu = document.querySelector('nav#menu')
     let simbol = document.getElementById('simbol')
     menu.classList.toggle('active')
     if(menu.classList.contains('active')){
