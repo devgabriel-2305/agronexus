@@ -49,9 +49,23 @@ iframe{
 footer h3{
     margin-top: 20px;
 }
+#itens > li > a::after {
+display: none;
+}
+
+#itens > li > a:hover::after {
+width: 0;
+}
 }
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    section#s01 h2{
-        font-size: 2.5em;
-    }
+section#s01 h2{
+    font-size: 2.5em;
+}
+#itens > li > a::after {
+    display: none;
+}
+
+#itens > li > a:hover::after {
+    width: 0;
+}
 }
